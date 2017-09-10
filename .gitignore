@@ -3,3 +3,9 @@
 ################################################################################
 
 /EmricServ.Blog/EmricServ.Blog.Repository/obj/Debug
+/EmricServ.Blog/EmricServ.Blog.Data/obj/Debug
+/EmricServ.Blog/EmricServ.Blog.Data/bin/Debug
+/EmricServ.Blog/EmricServ.Blog.Data.Interfaces/obj/Debug
+/EmricServ.Blog/EmricServ.Blog.Data.Interfaces/bin/Debug
+/EmricServ.Blog/EmricServ.Blog.Repository/bin/Debug
+/EmricServ.Blog/packages/EntityFramework.6.1.3

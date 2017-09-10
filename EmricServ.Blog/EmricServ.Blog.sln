@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmricServ.Blog.Repository", "EmricServ.Blog.Repository\EmricServ.Blog.Repository.csproj", "{D27507DC-4AB3-46B9-9F6E-C1814917BE6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmricServ.Blog.Data", "EmricServ.Blog.Data\EmricServ.Blog.Data.csproj", "{450582FA-4EE9-404D-9D90-EA6725E8F629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmricServ.Blog.Data.Interfaces", "EmricServ.Blog.Data.Interfaces\EmricServ.Blog.Data.Interfaces.csproj", "{824AB3ED-3528-4660-8A7B-E2E7B61DC9BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,11 +29,21 @@ Global
 		{D27507DC-4AB3-46B9-9F6E-C1814917BE6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D27507DC-4AB3-46B9-9F6E-C1814917BE6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D27507DC-4AB3-46B9-9F6E-C1814917BE6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{450582FA-4EE9-404D-9D90-EA6725E8F629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{450582FA-4EE9-404D-9D90-EA6725E8F629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{450582FA-4EE9-404D-9D90-EA6725E8F629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{450582FA-4EE9-404D-9D90-EA6725E8F629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{824AB3ED-3528-4660-8A7B-E2E7B61DC9BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{824AB3ED-3528-4660-8A7B-E2E7B61DC9BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{824AB3ED-3528-4660-8A7B-E2E7B61DC9BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{824AB3ED-3528-4660-8A7B-E2E7B61DC9BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D27507DC-4AB3-46B9-9F6E-C1814917BE6F} = {90CF1823-3EA4-45AD-8553-1797239E6940}
+		{450582FA-4EE9-404D-9D90-EA6725E8F629} = {19469757-DCB2-4477-BEEC-8D9E2AAABC44}
+		{824AB3ED-3528-4660-8A7B-E2E7B61DC9BA} = {19469757-DCB2-4477-BEEC-8D9E2AAABC44}
 	EndGlobalSection
 EndGlobal
