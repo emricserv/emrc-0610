@@ -3,8 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{ABCE42BE-A497-4EAD-A26C-CCC7C4D6FBCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{90CF1823-3EA4-45AD-8553-1797239E6940}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{19469757-DCB2-4477-BEEC-8D9E2AAABC44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{70984D41-9D6C-4D08-91E7-3632EDA49964}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E8832C9B-8F62-44DE-AE01-FD0E469961FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmricServ.Blog.Repository", "EmricServ.Blog.Repository\EmricServ.Blog.Repository.csproj", "{D27507DC-4AB3-46B9-9F6E-C1814917BE6F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D27507DC-4AB3-46B9-9F6E-C1814917BE6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D27507DC-4AB3-46B9-9F6E-C1814917BE6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D27507DC-4AB3-46B9-9F6E-C1814917BE6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D27507DC-4AB3-46B9-9F6E-C1814917BE6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D27507DC-4AB3-46B9-9F6E-C1814917BE6F} = {90CF1823-3EA4-45AD-8553-1797239E6940}
 	EndGlobalSection
 EndGlobal
