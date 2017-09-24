@@ -11,3 +11,8 @@
 /EmricServ.Blog/packages/EntityFramework.6.1.3
 /EmricServ.Blog/EmricServ.Blog.Repository.Interfaces/obj/Debug
 /EmricServ.Blog/packages
+/EmricServ.Blog/EmricServ.Blog.Domain/bin/Debug
+/EmricServ.Blog/EmricServ.Blog.Domain/obj/Debug
+/EmricServ.Blog/EmricServ.Blog.Repository.Interfaces/bin/Debug
+/EmricServ.Blog/EmricServ.Blog.WebUI/bin
+/EmricServ.Blog/EmricServ.Blog.WebUI/obj/Debug

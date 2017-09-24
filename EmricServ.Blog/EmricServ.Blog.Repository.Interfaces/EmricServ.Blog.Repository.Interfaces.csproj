@@ -40,7 +40,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IBlogPostRepository.cs" />
+    <Compile Include="IBlogCategoryRepository.cs" />
+    <Compile Include="IRepository.cs" />
+    <Compile Include="IUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EmricServ.Blog.Domain\EmricServ.Blog.Domain.Entities.csproj">
+      <Project>{96bc883a-cd6c-4223-8fb5-f7798ca26548}</Project>
+      <Name>EmricServ.Blog.Domain.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
