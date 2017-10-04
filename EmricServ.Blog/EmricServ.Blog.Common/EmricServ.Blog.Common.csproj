@@ -45,8 +45,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Template\.DS_Store" />
-    <None Include="Template\assets\.DS_Store" />
-    <None Include="Template\assets\css\.DS_Store" />
     <None Include="Template\assets\fonts\.DS_Store" />
     <None Include="Template\assets\fonts\bootstrap\glyphicons-halflings-regular.eot" />
     <None Include="Template\assets\fonts\bootstrap\glyphicons-halflings-regular.ttf" />
