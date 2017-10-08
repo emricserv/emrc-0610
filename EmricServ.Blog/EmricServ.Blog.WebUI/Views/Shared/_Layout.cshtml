@@ -1,44 +1,121 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
-
-</head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sports</title>
+    <!-- Goole Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto:400,500" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="~/Content/bootstrap.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="~/Content/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Owl carousel -->
+    <link href="~/Content/owl.carousel.css" rel="stylesheet">
+    <link href="~/Content/owl.theme.default.min.css" rel="stylesheet">
+    <!-- Off Canvas Menu -->
+    <link href="~/Content/offcanvas.min.css" rel="stylesheet">
+    <!--Theme CSS -->
+    <link href="~/Content/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+ </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
-                @Html.Partial("_LoginPartial")
-            </div>
-        </div>
-    </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
-    </div>
+ <div id="main-wrapper">
+     <header>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+         <nav class="navbar main-menu navbar-inverse navbar-fixed-top" role="navigation">
+             <div class="container">
+                 <div class="navbar-header">
+                     <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="offcanvas">
+                         <span class="sr-only">Toggle navigation</span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                     </button>
+                 </div>
+                 <div style="width:100%">
+                     <div class="top_bar">login/register</div>
+                     <div class="header-section">
+                         <div class="row">
+                             <div class="col-md-3">
+                                 <div class="logo">
+                                     <a href="index.html"><img class="img-responsive" src="~/Content/img/logo.png" alt=""></a>
+                                 </div><!--logo-->
+                             </div><!--col-md-3-->
+                             <div class="col-md-6">
+                                 <div class="header_ad_banner">
+                                     <a href="#"><img class="img-responsive" src="~/Content/img/img_ad.jpg" alt=""></a>
+                                 </div>
+                             </div><!--col-md-6-->
+                             <div class="col-md-3">
+                                 <div class="social_icon1">
+                                     <a class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a>
+                                     <!--Twitter-->
+                                     <a class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a>
+                                     <!--Google +-->
+                                     <a class="icons-sm gplus-ic"><i class="fa fa-google-plus"> </i></a>
+                                     <!--Linkedin-->
+                                     <a class="icons-sm li-ic"><i class="fa fa-linkedin"> </i></a>
+                                     <!--Pinterest-->
+                                     <a class="icons-sm pin-ic"><i class="fa fa-pinterest"> </i></a>
+                                 </div> <!--social_icon1-->
+                             </div><!--col-md-3-->
+                         </div> <!--row-->
+                     </div><!--header-section-->
+                 </div>
+                 <div id="navbar" class="collapse navbar-collapse sidebar-offcanvas">
+                     <ul class="nav navbar-nav">
+                         <li class="hidden"><a href="#page-top"></a></li>
+                         <li><a class="page-scroll" href="category.html">Technology</a></li>
+                         <li><a class="page-scroll" href="category.html">Career</a></li>
+                         <li><a class="page-scroll" href="category.html">Food</a></li>
+                         <li><a class="page-scroll" href="category.html">Lifestyle</a></li>
+                         <li><a class="page-scroll" href="category.html">Boxing</a></li>
+                         <li><a class="page-scroll" href="category.html">Golf</a></li>
+                         <li><a class="page-scroll" href="category.html">Tennis</a></li>
+                         <li><a class="page-scroll" href="category.html">Horse racing</a></li>
+                         <li><a class="page-scroll" href="category.html">Track & Field</a></li>
+                         <li class="dropdown">
+                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+                             <ul class="dropdown-menu">
+                                 <li><a href="#">Action</a></li>
+                                 <li><a href="#">Another action</a></li>
+                                 <li><a href="#">Something else here</a></li>
+                             </ul>
+                         </li>
+                     </ul>
+                     <div class="col-md-3 pull-right" style="padding:0px">
+                         <form class="navbar-form" role="search">
+                             <div class="input-group  pull-right">
+                                 <input class="form-control" placeholder="Search" name="q" type="text">
+                                 <div class="input-group-btn" >
+                                     <button class="btn btn-default" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                 </div>
+                             </div>
+                         </form>
+                     </div>
+                 </div>
+             </div>
+         </nav>
+         <!-- .navbar -->
+     </header>
+     @RenderBody()
+ </div>
+     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="~/Content/js/jquery.min.js"></script>
+    <!-- Owl carousel -->
+    <script src="~/Content/js/owl.carousel.js"></script>
+    <!-- Bootstrap -->
+    <script src="~/Content/js/bootstrap.min.js"></script>
+    <!-- Theme Script File-->
+    <script src="~/Content/js/script.js"></script>
+    <!-- Off Canvas Menu -->
+    <script src="~/Content/js/offcanvas.min.js"></script> 
 </body>
 </html>
